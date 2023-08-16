@@ -1,0 +1,13 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Victor Matekole", email = "contrario@matekole.com"},
+]
+dependencies = [
+    "Injector>=0.21.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
