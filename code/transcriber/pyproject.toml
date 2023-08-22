@@ -7,6 +7,10 @@ authors = [
 ]
 dependencies = [
     "Injector>=0.21.0",
+    "rich>=13.5.2",
+    "pytube>=15.0.0",
+    "pydub>=0.25.1",
+    "pyannote-audio @ https://github.com/pyannote/pyannote-audio/archive/refs/heads/develop.zip",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
