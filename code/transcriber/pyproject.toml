@@ -11,7 +11,11 @@ dependencies = [
     "pytube>=15.0.0",
     "pydub>=0.25.1",
     "pyannote-audio @ https://github.com/pyannote/pyannote-audio/archive/refs/heads/develop.zip",
+    "pandas>=2.0.3",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
+
+[tool.black]
+skip-string-normalization = true
